@@ -57,4 +57,6 @@ return require('packer').startup(function(use)
         'j-hui/fidget.nvim',
         branch = 'legacy',
     })
+
+    use('lewis6991/gitsigns.nvim')
 end)
