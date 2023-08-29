@@ -52,4 +52,9 @@ return require('packer').startup(function(use)
     use('lukas-reineke/indent-blankline.nvim')
 
     use('numToStr/Comment.nvim')
+
+    use({
+        'j-hui/fidget.nvim',
+        branch = 'legacy',
+    })
 end)
