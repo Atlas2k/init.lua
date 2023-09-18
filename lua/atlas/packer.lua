@@ -6,9 +6,6 @@ return require('packer').startup(function(use)
     use({
         'nordtheme/vim',
         as = 'nord',
-        config = function()
-            vim.cmd('colorscheme nord')
-        end
     })
 
     use('nvim-tree/nvim-tree.lua')
